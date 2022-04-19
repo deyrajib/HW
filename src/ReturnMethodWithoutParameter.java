@@ -18,6 +18,20 @@ public class ReturnMethodWithoutParameter {
     }
 
 
+    public double DoMultiplication() {
+        double itemPrice = 65;
+        double itemPrice1 = 45;
+        double total1 = itemPrice * itemPrice1;
+        System.out.println("Total = " + total1);
+        return total1;
+    }
+
+
+
+
+
+
+
     public float doDivision() {
 
         float number = 499f;
@@ -47,8 +61,8 @@ public class ReturnMethodWithoutParameter {
         ReturnMethodWithoutParameter ReturnMethodWithoutParameter1 = new ReturnMethodWithoutParameter();
         ReturnMethodWithoutParameter1.doSubtraction();
 //3
-        //  ReturnMethodWithoutParameter ReturnMethodWithoutParameter2 = new ReturnMethodWithoutParameter();
-        // ReturnMethodWithoutParameter2.();
+          ReturnMethodWithoutParameter ReturnMethodWithoutParameter2 = new ReturnMethodWithoutParameter();
+         ReturnMethodWithoutParameter2.DoMultiplication();
 
         ReturnMethodWithoutParameter ReturnMethodWithoutParameter3 = new ReturnMethodWithoutParameter();
         ReturnMethodWithoutParameter3.doDivision();
