@@ -53,22 +53,29 @@ public class ReturnMethodWithoutParameter {
     }
 
 
+    public boolean isDateAvailable(){
+        boolean isAvaliable= true;
+        System.out.println("Date Is Available" + isAvaliable);
+        return isAvaliable;
+
+    }
+
     public static void main(String[] args) {
 //1
         ReturnMethodWithoutParameter ReturnMethodWithoutParameter = new ReturnMethodWithoutParameter();
         ReturnMethodWithoutParameter.doSum();
-        //2
-        ReturnMethodWithoutParameter ReturnMethodWithoutParameter1 = new ReturnMethodWithoutParameter();
-        ReturnMethodWithoutParameter1.doSubtraction();
-//3
-          ReturnMethodWithoutParameter ReturnMethodWithoutParameter2 = new ReturnMethodWithoutParameter();
-         ReturnMethodWithoutParameter2.DoMultiplication();
 
-        ReturnMethodWithoutParameter ReturnMethodWithoutParameter3 = new ReturnMethodWithoutParameter();
-        ReturnMethodWithoutParameter3.doDivision();
+        ReturnMethodWithoutParameter.doSubtraction();
+        ReturnMethodWithoutParameter.DoMultiplication();
+        ReturnMethodWithoutParameter.doDivision();
+        ReturnMethodWithoutParameter.getEmployeesInformation();
 
-        ReturnMethodWithoutParameter ReturnMethodWithoutParameter4 = new ReturnMethodWithoutParameter();
-        ReturnMethodWithoutParameter4.getEmployeesInformation();
+
+
+
+        ReturnMethodWithoutParameter.isDateAvailable();
+
+
     }
 }
 

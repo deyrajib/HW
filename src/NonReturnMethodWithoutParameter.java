@@ -48,22 +48,27 @@ public class NonReturnMethodWithoutParameter {
                 " " + " Add : " + add);
     }
 
+    public  void  OfficeHr(){
+
+
+
+
+
+    }
+
+
+
+
+
     public static void main(String[] args) {
         //1
         NonReturnMethodWithoutParameter NonReturnMethodWithoutParameter = new NonReturnMethodWithoutParameter();
         NonReturnMethodWithoutParameter.dosum();
-        //2
-        NonReturnMethodWithoutParameter NonReturnMethodWithoutParameter1 = new NonReturnMethodWithoutParameter();
-        NonReturnMethodWithoutParameter1.Subtraction();
-        //3
-        NonReturnMethodWithoutParameter NonReturnMethodWithoutParameter2 = new NonReturnMethodWithoutParameter();
+//
+        NonReturnMethodWithoutParameter.Subtraction();
         NonReturnMethodWithoutParameter.Multiplication();
-        //4
-        NonReturnMethodWithoutParameter NonReturnMethodWithoutParameter3 = new NonReturnMethodWithoutParameter();
         NonReturnMethodWithoutParameter.Division();
-        //5
-        NonReturnMethodWithoutParameter NonReturnMethodWithoutParameter4 = new NonReturnMethodWithoutParameter();
-        NonReturnMethodWithoutParameter4.employeesInformation();
+        NonReturnMethodWithoutParameter.employeesInformation();
 
     }
 }
